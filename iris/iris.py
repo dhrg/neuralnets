@@ -169,6 +169,3 @@ plt.show()
 prediction = loaded_model.predict_classes(np.array([[4, 3, 1, 0.1]]), verbose=0)
 yourflower = encoder.inverse_transform(prediction)
 print "Your flower is %s." % yourflower[0]
-
-# final words, if you deploing on AWS or Azure ML likelly you would need to check https://myjourneyasadatascientist.com/tag/ec2/ or 
-# https://gallery.cortanaintelligence.com//Experiment/Theano-Keras-1. However there would be other ways too. 
